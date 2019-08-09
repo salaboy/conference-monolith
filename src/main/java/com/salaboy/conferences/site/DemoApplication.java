@@ -32,8 +32,8 @@ class ConferenceSiteController {
         String sponsorsString = "Here goes the Sponsors Section";
 
         model.addAttribute("version", version);
-        model.addAttribute("sponsors", agendaString);
-        model.addAttribute("agenda", sponsorsString);
+        model.addAttribute("sponsors", sponsorsString);
+        model.addAttribute("agenda", agendaString);
         return "index";
     }
 
